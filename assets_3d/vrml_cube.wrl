@@ -1,0 +1,138 @@
+#VRML V2.0 utf8
+
+# #VRML V2.0 utf8 
+DEF Main Viewpoint {
+  description "Main"
+  position 30 30 30
+  orientation -0.6785983 0.6785983 -0.2810846 1.096057
+  fieldOfView 0.7854
+}
+
+DEF Cube Transform {
+  translation 5 5 5
+  scale 1 1 1
+  children Shape {
+    appearance Appearance {
+      material Material {
+        shininess 0.5
+        # Red
+        diffuseColor 0.9 0.9 0.9
+        ambientIntensity 0.6
+      }
+    }
+    geometry Box {
+      size 10 10 10
+    }
+  }
+}
+DEF corner1 Transform {
+  children Shape {
+    appearance Appearance {
+      material Material {
+        # Red
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Sphere {
+      radius 0.3
+    }
+  }
+}
+DEF corner2 Transform {
+  translation 10 0 0
+  children Shape {
+    appearance Appearance {
+      material Material {
+        # Red
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Sphere {
+      radius 0.3
+    }
+  }
+}
+DEF corner3 Transform {
+  translation 10 10 0
+  children Shape {
+    appearance Appearance {
+      material Material {
+        # Red
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Sphere {
+      radius 0.3
+    }
+  }
+}
+DEF corner4 Transform {
+  translation 10 0 10
+  children Shape {
+    appearance Appearance {
+      material Material {
+        # Red
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Sphere {
+      radius 0.3
+    }
+  }
+}
+DEF corner5 Transform {
+  translation 10 10 10
+  children Shape {
+    appearance Appearance {
+      material Material {
+        # Red
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Sphere {
+      radius 0.3
+    }
+  }
+}
+DEF corner6 Transform {
+  translation 0 10 10
+  children Shape {
+    appearance Appearance {
+      material Material {
+        # Red
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Sphere {
+      radius 0.3
+    }
+  }
+}
+DEF corner7 Transform {
+  translation 0 10 0
+  children Shape {
+    appearance Appearance {
+      material Material {
+        # Red
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Sphere {
+      radius 0.3
+    }
+  }
+}
+DEF corner8 Transform {
+  translation 0 0 10
+  children Shape {
+    appearance Appearance {
+      material Material {
+        # Red
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Sphere {
+      radius 0.3
+    }
+  }
+}

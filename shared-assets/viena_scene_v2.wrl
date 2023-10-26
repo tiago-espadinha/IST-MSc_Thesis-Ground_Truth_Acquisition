@@ -1,0 +1,31 @@
+#VRML V2.0 utf8
+
+DEF cameraMain Viewpoint {
+  description "Main Camera"
+  position 0 0 3.77
+  orientation 1 0 0 1.18
+  fieldOfView 1
+}
+
+DEF cameraTop Viewpoint {
+  description "Aerial View"
+  position 0 5 40
+}
+
+DEF vehicle Transform {
+  translation -7.16 14.07 -0.087
+  rotation 0.0226 0.0160 -0.9996 2.8056
+  children Inline{
+    url "Viena_capture.wrl"
+  }
+}
+
+Background {
+  skyColor 0 1 1
+  skyAngle [0.1, 1.2, 1.57]
+  groundColor [
+    0.15186 0.8 0.26976,
+    0.03474 0.8 0.65881 
+  ]
+  groundAngle [0.9, 1.5, 1.57]
+}
