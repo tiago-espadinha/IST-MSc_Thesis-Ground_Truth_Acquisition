@@ -1,0 +1,23 @@
+{
+    "video_detect": {
+        "video_path": "Viena_30s.mp4",
+        "show": true
+    },
+    "video_pose": {
+        "video_path": "Viena_30s.mp4",
+        "output_video_path": "output_pose.avi",
+        "save": false,
+        "show": true,
+        "track_height": 25,
+        "track_status": true,
+        "print_track": false
+    },
+    "video_track": {
+        "video_path": "Viena_30s.mp4",
+        "output_video_path": "output_track.avi",
+        "output_mat_path": "output_track.mat",
+        "save": true,
+        "show": true,
+        "track_height": 25
+    }
+}
