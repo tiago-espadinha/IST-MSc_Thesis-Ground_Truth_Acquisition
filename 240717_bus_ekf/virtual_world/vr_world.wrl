@@ -1,0 +1,326 @@
+#VRML V2.0 utf8
+
+# Created with V-Realm Builder v2.0
+# Integrated Data Systems Inc.
+# www.ids-net.com
+DEF camera1 Viewpoint {
+  description "South Camera"
+  position 0 -350 250
+  orientation 1 0 0 0.7854
+}
+DEF camera2 Viewpoint {
+  description "North Camera"
+  position 0 950 250
+  orientation 0 0.3827 0.9239 3.1416
+}
+DEF camera3 Viewpoint {
+  description "West Camera"
+  position -1300 300 250
+  orientation 0.3574 -0.3574 -0.8629 1.7178
+}
+DEF camera4 Viewpoint {
+  description "East Camera"
+  position 1300 300 250
+  orientation 0.3574 0.3574 0.8629 1.7178
+}
+DEF bus1 Transform {
+  translation -75 -300 0
+  scale 20 20 20
+  center 0.5 4.5 -1
+  children Shape {
+    geometry IndexedFaceSet {
+      texCoordIndex [
+        0, 1, 2, 3, -1, 
+        4, 5, 6, 7, -1, 
+        8, 9, 10, 11, -1, 
+        12, 13, 14, 15, -1, 
+        16, 17, 18, 19, -1 
+      ]
+      # Show back of faces too
+      solid FALSE
+      coordIndex [
+        0, 3, 2, 1, -1, 
+        0, 1, 5, 4, -1, 
+        1, 2, 6, 5, -1, 
+        2, 3, 7, 6, -1, 
+        3, 0, 4, 7, -1 
+      ]
+      convex FALSE
+      texCoord TextureCoordinate {
+        point [
+          0.153392 0.717577,
+          0.804079 0.717577,
+          0.804079 0.501127,
+          0.153392 0.501127,
+          0.806915 0.501127,
+          0.944424 0.503382,
+          0.944424 0.255366,
+          0.808332 0.259876,
+          0.80975 0.717577,
+          0.137798 0.719832,
+          0.136381 0.997159,
+          0.80975 0.997159,
+          0.00170679 0.503382,
+          0.139216 0.503382,
+          0.139216 0.244093,
+          0.00170679 0.241838,
+          0.137798 0.501127,
+          0.805497 0.501127,
+          0.808332 0.219291,
+          0.137798 0.219291 
+        ]
+      }
+      coord Coordinate {
+        point [
+          0 0 0,
+          1 0 0,
+          1 5 0,
+          0 5 0,
+          0 0 -1,
+          1 0 -1,
+          1 5 -1,
+          0 5 -1 
+        ]
+      }
+    }
+    appearance Appearance {
+      texture ImageTexture {
+        url "vrml_objects/bus1.png" 
+      }
+    }
+  }
+}
+DEF bus2 Transform {
+  translation -75 -500 0
+  scale 20 20 20
+  rotation 1 0 0 0
+  center 0.5 4.5 -1
+  children Shape {
+    geometry IndexedFaceSet {
+      texCoordIndex [
+        0, 1, 2, 3, -1, 
+        4, 5, 6, 7, -1, 
+        8, 9, 10, 11, -1, 
+        12, 13, 14, 15, -1, 
+        16, 17, 18, 19, -1 
+      ]
+      # Show back of faces too
+      solid FALSE
+      coordIndex [
+        0, 3, 2, 1, -1, 
+        0, 1, 5, 4, -1, 
+        1, 2, 6, 5, -1, 
+        2, 3, 7, 6, -1, 
+        3, 0, 4, 7, -1 
+      ]
+      convex FALSE
+      texCoord TextureCoordinate {
+        point [
+          0.155478 0.720713,
+          0.821723 0.71859,
+          0.821723 0.502122,
+          0.155478 0.502122,
+          0.821723 0.5,
+          0.953452 0.502122,
+          0.953452 0.255943,
+          0.822989 0.255943,
+          0.825523 0.71859,
+          0.128879 0.720712,
+          0.128879 0.998725,
+          0.825523 0.998725,
+          0.00094975 0.504244,
+          0.130146 0.502122,
+          0.130146 0.24321,
+          0.00094975 0.24321,
+          0.130146 0.5,
+          0.821723 0.5,
+          0.824256 0.219865,
+          0.130146 0.219865 
+        ]
+      }
+      coord Coordinate {
+        point [
+          0 0 0,
+          1 0 0,
+          1 5 0,
+          0 5 0,
+          0 0 -1,
+          1 0 -1,
+          1 5 -1,
+          0 5 -1 
+        ]
+      }
+    }
+    appearance Appearance {
+      texture ImageTexture {
+        url "vrml_objects/bus2.png" 
+      }
+    }
+  }
+}
+DEF bus3 Transform {
+  translation 125 -300 0
+  scale 20 20 20
+  rotation 1 0 0 0
+  center 0.5 4.5 -1
+  children Shape {
+    geometry IndexedFaceSet {
+      texCoordIndex [
+        0, 1, 2, 3, -1, 
+        4, 5, 6, 7, -1, 
+        8, 9, 10, 11, -1, 
+        12, 13, 14, 15, -1, 
+        16, 17, 18, 19, -1 
+      ]
+      # Show back of faces too
+      solid FALSE
+      coordIndex [
+        0, 3, 2, 1, -1, 
+        0, 1, 5, 4, -1, 
+        1, 2, 6, 5, -1, 
+        2, 3, 7, 6, -1, 
+        3, 0, 4, 7, -1 
+      ]
+      convex FALSE
+      texCoord TextureCoordinate {
+        point [
+          0.161402 0.643265,
+          0.837334 0.641044,
+          0.838598 0.363399,
+          0.162666 0.363399,
+          0.839861 0.363399,
+          0.999053 0.36562,
+          0.999685 -0.00087125,
+          0.839861 0.00134983,
+          0.842388 0.641044,
+          0.163929 0.638823,
+          0.161402 0.99865,
+          0.842388 0.999129,
+          0.0022108 0.36562,
+          0.162666 0.363399,
+          0.161402 -0.00309245,
+          0.00347424 0.00134983,
+          0.161402 0.361178,
+          0.839861 0.363399,
+          0.839861 -0.00087125,
+          0.162666 0.00357103 
+        ]
+      }
+      coord Coordinate {
+        point [
+          0 0 0,
+          1 0 0,
+          1 5 0,
+          0 5 0,
+          0 0 -1,
+          1 0 -1,
+          1 5 -1,
+          0 5 -1 
+        ]
+      }
+    }
+    appearance Appearance {
+      texture ImageTexture {
+        url "vrml_objects/bus3.png" 
+      }
+    }
+  }
+}
+DEF bus4 Transform {
+  translation 125 -500 0
+  scale 20 20 20
+  rotation 1 0 0 0
+  center 0.5 4.5 -1
+  children Shape {
+    geometry IndexedFaceSet {
+      texCoordIndex [
+        0, 1, 2, 3, -1, 
+        4, 5, 6, 7, -1, 
+        8, 9, 10, 11, -1, 
+        12, 13, 14, 15, -1, 
+        16, 17, 18, 19, -1 
+      ]
+      # Show back of faces too
+      solid FALSE
+      coordIndex [
+        0, 3, 2, 1, -1, 
+        0, 1, 5, 4, -1, 
+        1, 2, 6, 5, -1, 
+        2, 3, 7, 6, -1, 
+        3, 0, 4, 7, -1 
+      ]
+      convex FALSE
+      texCoord TextureCoordinate {
+        point [
+          0.824657 0.502018,
+          0.130771 0.502018,
+          0.129566 0.717889,
+          0.824657 0.717889,
+          0.824657 0.502018,
+          0.952351 0.502018,
+          0.953556 0.221587,
+          0.824657 0.221587,
+          0.824657 0.717889,
+          0.129566 0.717889,
+          0.129566 0.998319,
+          0.823452 0.998319,
+          0.00066717 0.504035,
+          0.130771 0.502018,
+          0.130771 0.219569,
+          0.00066717 0.219569,
+          0.130771 0.502018,
+          0.824657 0.502018,
+          0.824657 0.221587,
+          0.130771 0.219569 
+        ]
+      }
+      coord Coordinate {
+        point [
+          0 0 0,
+          1 0 0,
+          1 5 0,
+          0 5 0,
+          0 0 -1,
+          1 0 -1,
+          1 5 -1,
+          0 5 -1 
+        ]
+      }
+    }
+    appearance Appearance {
+      texture ImageTexture {
+        url "vrml_objects/bus4.png" 
+      }
+    }
+  }
+}
+DEF floor Transform {
+  scale 100 100 100
+  children Shape {
+    geometry Box {
+      size 25 19 0
+    }
+    appearance Appearance {
+      texture ImageTexture {
+        url "vrml_objects/Park.gif" 
+      }
+    }
+  }
+}
+DEF Anigroup-1-TIMER TimeSensor {
+}
+Background {
+  skyColor 0 1 1
+  skyAngle [0.1, 1.2, 1.57]
+  groundColor [
+    0.15186 0.8 0.26976,
+    0.03474 0.8 0.65881 
+  ]
+  groundAngle [0.9, 1.5, 1.57]
+}
+WorldInfo {
+}
+DEF cameratop Viewpoint {
+  description "Aerial View"
+  position 0 250 2000
+}
