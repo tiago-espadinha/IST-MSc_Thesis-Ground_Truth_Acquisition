@@ -1,0 +1,29 @@
+{
+    "video_track": {
+        "video_path": "../assets/Viena_120s.mp4",
+        "output_video_path": "../outputs/Viena_120s_detected.avi",
+        "output_raw_data_path": "../outputs/raw_bbox_data.mat",
+        "save": true,
+        "show": false,
+        "track_height": 25
+    },
+    "video_filter": {
+        "input_raw_data_path": "../outputs/raw_bbox_data.mat",
+        "output_mat_path": "../outputs/bbox_data.mat",
+        "save": true,
+        "filter_track_ids": [
+            1,
+            265,
+            297,
+            615,
+            649,
+            861,
+            1316,
+            1376
+        ],
+        "x_scale": 0.45,
+        "y_scale": 0.4861111111111111,
+        "w_scale": 0.45,
+        "h_scale": 0.4861111111111111
+    }
+}
